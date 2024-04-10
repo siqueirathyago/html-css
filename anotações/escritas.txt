@@ -1,0 +1,6 @@
+aHTML
+    Negrito e itálico semântico
+        strong
+        em
+    Links
+        <a href="o link" target="_self (mesma aba) _blank (outra aba)" rel="next (proxima página) prev (página anterior) nofollow (não criar link entre as páginas) external (outra aba)">texto aqui</a>

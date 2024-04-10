@@ -1,0 +1,223 @@
+REPOSITÓRIOS PÚBLICOS
+    https://github.com/gustavoguanabara/html-css
+    https://gustavoguanabara.github.io
+
+MATERIAL DE APOIO
+    Repositório no github em PDF
+
+REFERÊNCIAS ON-LINE
+    Referência MDN: Mozilla Developer Network
+    W3C Standards: World Wide Web Consortium
+    WHATWG Living Standards: Web Hypertext Application Technology Working Group
+    W3CSchools: Refsnes Data
+
+LIVROS
+    HTML5: Mark Pilgrim, O'Reilly
+    CSS: Eric Meyer, O'Reilly
+    Flexbox in CSS: Estelle Weyl, O'Reilly
+    Grid Layout in CSS: Eric Meyer, O'Reilly
+
+    HTML5 e CSS3: Elizabeth Castro e Bruce Hyslop, Alta Books
+    HTML&CSS: Jon Duckett, Alta Books
+    HTML e CSS: Elisabeth Robson e Eric Freeman, Alta Books
+    CRIE SEU PRÓPRIO SITE: Nate Cooper e Kim Gee, Novatec
+    HTML5: Mauricio Samy Silva, Novatec
+    CSS3: Mauricio Samy Silva, Novatec
+    Fundamentos de HTML5 e CSS3: Mauricio Samy Silva, Novatec
+    CSS GRID LAYOUT: Mauricio Samy Silva, Novatec
+
+    FLEXBOX EXPLAINED: Jorge Montoya e Stephen Burge, OSTRaining
+    CSS GRID EXPLAINED: Jorge Montoya e Stephen Burge, OSTRaining
+    HTML5: Bill Sanders, Bookman
+    CSS: Eric Meyer, Bookman
+
+    LIVROS DE DESIGN
+        Curso de design gráfico:  David Dabner e outros, GG
+        design: Bob e Maggie Gordon, Senac
+        A psicologia das cores: Eva Heller, GG
+        PENSAR COM TIPOS: Ellen Lupton, GG
+
+LINK DO VÍDEO DO CONTEÚDO ACIMA: https://youtu.be/0zLjVhHdOm8
+
+HISTÓRIA DA INTERNET
+    A Internet surgiu na Guerra fria (1969) com a ARPANET com o protocolo NCP (Network Control Protocol) para proteger centros militares, usando uma linguagem unica, porém de uma forma arcaica, tendo que parar a rede para ter a comunicação entre dois dos quatro computadores da época, todos em pontos diferentes, após terminar a comunicação a rede voltava
+    
+    No ano de 1972 o protocolo NCP já estava sendo usado em muitos computadores em vários pontos, com uma certa evolução, porém, muito ruim para tantos computadores
+    
+    Para resolver isso, o pesquisador Bob Kahn criou o protocolo TCP (Transfer Control Protocol) para resolver a questão de ter que parar a rede para ter a comunicação entre dois pontos
+    
+    Porém o protocolo TCP tinha o problema de identificar os pontos, pois a rede estava muito grande
+    
+    Sendo assim o pesquisador Vint Cerf criou o protocolo  IP (Internetwork Protocol) para resolver o problema de identificação dos pontos
+    
+    Juntado o trabalho dos dois pesquisadores foi criado o protocolo TCP/IP, sendo ele o que usamos até hoje
+
+    A ARPANET cresceu tanto, que os militares já não queriam cuidar daquela rede, pois já tinham locais que no principio da criação não eram para usar aquela rede, como universidades e áreas comerciais
+    
+    Com isso, a rede foi dividida em três, a MILNET ficou para o comunicação militar, a NSFNET ficou para a comunicação cientifica, como universidades e, as redes comerciais para comunicações mais abrangentes, como por exemplo: entre empresas
+    
+    A NSFNET e as redes comerciais queriam se comunicar, criando a rede de Interconnect Networking, Internetworking ou somente Internet, como chamamos hoje em dia, já a MILNET era privada para somente comunicação militar
+
+COMO ERA A INTERNET
+    Vídeo no tempo certo: https://youtu.be/F74GKCLXUWM?si=BRfBazNJvliDsKW4&t=1093
+
+O SURGIMENTO DO HTTP, DA HTML, DA WWW E DO MOSAIC
+    No ano de 1993, Tim Berners-Lee criou o protocolo HTTP (Hyper-text Transfer Protocol), responsável pela sub-rede WWW (World Wide Web) dentro da grande rede de Internet que tem vários protocolos que podem se conectar em elas
+    
+    O HTTP é especializado em produzir conteúdo em hyper-texto, utilizando a linguagem de marcação HTML (Hyper Text Markup Language), também criada pelo Tim Berners-Lee
+    
+    O primeiro navegador especializado no protocolo HTTP foi o Mosaic, criado por Marc Andreessen
+
+LINK DO VÍDEO DO CONTEÚDO ACIMA: https://youtu.be/F74GKCLXUWM
+
+REPRESENTAÇÃO DE DADOS
+    Equipamentos eletrônicos precisam de sinais para que possam funcionar, na computação esses sinais são representados em ondas quadradas por 0 e 1, onde o 0 sinaliza que o sinal está desligado e o 1 que o sinal está ligado, o 0 ou 1 são chamamos de binary digit ou bit, mas para representar uma informação significante é utilizado um conjunto de 8 bits, ou seja, um conjunto de 8 zeros ou uns, por exemplo: (11100010), esse conjunto de 8 bits tem o nome de byte
+    
+    O byte tem seus múltiplos na base 2 (2¹⁰) sempre 1024
+    
+    Ou seja
+    1024 bytes = 1 KB
+    1024 KB = 1 MB
+    1024 MB = 1 GB
+    1024 GB = 1 TB
+    1024 TB = 1 PB
+    1024 PB = 1 EB
+    1024 EB = 1 ZB
+    1024 ZB = 1 YB
+    
+    Lembrando que existe a diferença entre MB (com o B maiúsculo) e Mb (com o b minusculo), o MB representa megabytes, ou seja, armazenamento, e o Mb representa megabits, ou seja, velocidade de transmissão, um HD tem 500 megabytes (MB) e uma Internet tem 100 megabits (Mb)
+
+COMO NOS CONECTAMOS?
+    Quando instalamos uma rede de Internet na nossa casa temos que instalar o roteador, que é responsável por fazer a conexão entre o nosso computador e os servidores que guardam o endereço IP de todos os sites da Internet, é preciso utiliza-lo pois as ondas dos servidores não são quadradas como as ondas que os computadores entendem, então, o roteador é responsável por fazer a MOdulação e a DEModulação de ondas para que o computador e os servidores possam se conectar, e, é desses dois nomes que vem o nome modem (MOdulação e DEModulação)
+    
+    Porém os IPs dos sites são atualizados constantemente, por isso existe o servidor DNS, eles servem como uma agenda de domínios de sites, por exemplo o instagram.com é um domínio que tem um IP, um número de identificação dos sites que muda constantemente, quando acessamos o Instagram o servidor DNS é responsável por descobrir o IP atual de acesso ao site e enviar ao nosso computador, assim acessamos o Instagram, onde as informações virão de rotas diferentes todas as vezes em que acessamos um site, quando vem por uma rota longa, faz com que demore mais para que o site carregue as informações, causando a famosa internet lenta, contudo, sem o servidor DNS teríamos que saber o número do IP atual de todos os sites que fossemos acessar, o servidor DNS funciona assim como nossa agenda telefônica, onde não precisamos decorar o número de ninguém, somente o nome que colocamos no contato
+
+LINK DO VÍDEO DO CONTEÚDO ACIMA: https://youtu.be/nlO5hySqJFA
+
+HOSPEDAGEM, DOMÍNIO E URL
+    
+    HOSPEDAGEM
+        A hospedagem é o lugar onde você guarda os arquivos em um servidor para que possam ser acessados em qualquer computador, sem a hospedagem só quem tem os arquivos no computador poderá acessar eles, a hospedagem tem suas diferenças nos preços, quanto maior a qualidade de serviço da sua hospedagem, mais cara ela será
+    
+    DOMÍNIO
+        O domínio é um nome único que é utilizado para acessar seus arquivos/site dentro da hospedagem, o domínio fica dentro de uma URL, que é um endereço único que leva somente ao um único caminho determinado
+    
+    URL
+        Por exemplo a URL do canal Curso em Vídeo
+        https://www.youtube.com/@CursoemVideo <-- URL
+        
+        https:// <-- protocolo
+        
+        www. <-- sub-domínio
+        
+        youtube.com <-- domínio
+        
+        .com <-- GTLD, um TLD genérico
+        
+        @CursoemVideo <-- caminho
+        
+        Existe dois tipos de TLD, os GTLD, um TLD genérico, como: .com, .store, .gov, .edu, .io
+        E os CCTLD que são TLDs de países, como: .br, .en, .uk, .ar .pt
+
+LINK do VÍDEO DO CONTEÚDO ACIMA: https://youtu.be/RFHSt1PCy0k
+
+O QUE É A HTML, AS CSS E A JAVASCRIPT
+    
+    HTML
+        A sigla HTML significa (Hypertext Markup Language) que em português significa (Linguagem de Marcação em Hipertexto)
+        A HTML é 100% focada no conteúdo de um site, como: textos, imagens, vídeos, tabelas e listas
+    
+    CSS
+        A sigla CSS significa (Cascading Style Sheet) que em português significa (Folhas de Estilo em Cascata)
+    
+        As CSS são 100% focada no design de um site, como: cores, sombras, tamanhos e posicionamentos
+    
+        Por isso não podemos dizer que programamos em HTML e CSS, pois a HTML e as CSS não são uma linguagem de programação e sim de marcação (HTML) e de estilização (CSS)
+    
+    JAVASCRIPT
+        A sigla JS significa JavaScript, ela sim é uma linguagem de programação, nesse caso podemos dizer que programamos em JavaScript
+        
+        A linguagem JavaScript é 100% focada nas interações de um site, como: menus, animações, popups e validações
+
+ESTRUTURA HTML
+    <tag>texto</tag>
+    <tag src="foto" parâmetro="exemplo de foto">
+
+    A maioria das tags em HTML tem abertura e fechamento, com algumas exceções de tags que só tem abertura, algumas também tem parâmetros, mas não todas
+    
+    Exemplo
+    <h1>tag de cabeçalho</h1>
+    <p>tag de paragrafo</p>
+    <img scr="foto" alt="texto alternativo">
+    O "src" e o "alt" são parâmetros
+
+ESTRUTURA BASE HTML
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    
+    </body>
+    </html>
+
+ESTILIZAÇÃO EM CSS
+    <style>
+    seletor {
+    propriedade: valor; <-- eles dois formam uma declaração
+    }
+    </style>
+
+    Exemplo
+    <style>
+    h1 {
+    font-family: arial;
+    }
+    </style>
+    
+LINK do VÍDEO DO CONTEÚDO ACIMA: https://youtu.be/B4FU3NFRTDw
+
+DIFERENÇA ENTRE FRONT-END, BACK-END E FULL STACK
+    FRONT-END
+        Um desenvolvedor front-end é aquele que trabalha na parte visual de um site, a parte onde é vista por quem acessa o ste, as principais tecnologias usadas no front-end são: HTML, CSS e JavaScript
+    
+    BACK-END
+        Já um programador back-end trabalha no lado tecnico do servidor de um site, por exemplo nos bancos de dados de uma loja online para definir de uma forma fácil quantas roupas tem em estoque, quais e as suas promoções definidas, datas de fechamento entre outros, algumas das tecnologias usadas no back-end são: PHP, C#, Python, JavaScript, Java, dentre outras
+
+    FULL STACK
+        Um profissional full stack é aquele que sabe trabalhar bem tanto no front-end, quanto no back-end, é um profissional completo nas duas áreas, porém , o processo de aprendizado e profissionalização de um full stack é muito mas longo e difícil do que de umn front-end ou back-end
+
+LINK do VÍDEO DO CONTEÚDO ACIMA: https://youtu.be/iSqf2iPqJNM
+
+SITE PARA PEGAR CÓDIGOS DE SÍMBOLOS E EMOJIS
+
+    https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+
+SITES DE BANCOS DE IMAGENS
+
+    https://unsplash.com/pt-br
+    https://www.pexels.com/pt-br
+    https://br.freepik.com
+
+SITES PARA FAZER FAVICON 
+
+    https://www.iconarchive.com
+    https://www.favicon.cc
+    https://favicon.io
+
+SITE PARA VER AS TAGS OBSOLETAS
+
+    https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html
+
+SITE PARA VER A ASSINATURA DE DOWNLOAD DE ARQUIVOS
+
+    https://www.iana.org/assignments/media-types/media-types.xhtml
+
+SITES PARA DETECTAR FONTES EM IMAGENS
+
+    https://www.whatfontis.com
+    https://www.fontsquirrel.com
+    https://www.myfonts.com

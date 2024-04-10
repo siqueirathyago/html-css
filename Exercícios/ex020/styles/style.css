@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+div {
+    background-color: lightgray;
+    width: 120px;
+    padding: 0.02px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:visited:hover {
+    color: blue;
+}
+
+div > ul {
+    display: none;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+div:hover > ul {
+    display: block;
+}
+
+p::before {
+    content: "> ";
+}
+
+p::after {
+    content: " <";
+}
