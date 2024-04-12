@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando posicionamento</title>
+    <style>
+        div.bloco {
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            border: 1px solid black;
+            height: 175px;
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        div#geral {
+            height: 100vh;
+            margin: auto;
+            width: 100%;
+        }
+
+        div#q1 {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-position: left top;
+        }
+        
+        div#q2 {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-position: top right;
+            
+        }
+        
+        div#q3 {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-position: center center;
+            
+        }
+        
+        div#q4 {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-position: bottom left;
+            
+        }
+
+        div#q5 {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-position: right bottom;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="geral">
+        <div class="bloco" id="q1"></div>
+        <div class="bloco" id="q2"></div>
+        <div class="bloco" id="q3"></div>
+        <div class="bloco" id="q4"></div>
+        <div class="bloco" id="q5"></div>
+    </div>
+</body>
+</html>
