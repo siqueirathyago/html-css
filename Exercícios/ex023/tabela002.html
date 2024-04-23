@@ -17,6 +17,24 @@
             border: 1px solid black;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgrey;
         }
         
         th {
@@ -49,10 +67,11 @@
 <body>
     <h1>Tabela complexa</h1>
     <table>
+        <caption>Dados sobre a população brasileira</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -167,7 +186,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td class="total">Total</td>
+                <th scope="row" class="total">Total</th>
                 <td class="total">203 062 512</td>
             </tr>
         </tfoot>
